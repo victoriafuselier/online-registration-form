@@ -41,7 +41,7 @@
 
                 <label for="state">State</label>
                 <select name="state" id="state">
-                    <option value="" selected="selected">Select a State</option>
+                    <option value="" selected="selected">Choose State</option>
                     <option value="AL">Alabama</option>
                     <option value="AK">Alaska</option>
                     <option value="AZ">Arizona</option>
@@ -98,26 +98,29 @@
                 <label for="zipcode">Zip Code</label>
                 <input type="" id="zipcode" name="user_zipcode">
             </fieldset>
-            <fieldset>
+            <fieldset id="newsletter-fieldset">
                 <legend>Newsletter</legend>
                 <p>Select the newsletters you would like to receive</p>
 
-                <label for="html-news">HTML News</label>
                 <input type="checkbox" id="html-news" name="news" value="html-news">
+                <label for="html-news">HTML News</label><br>
 
-                <label for="css-news">CSS News</label>                
                 <input type="checkbox" id="css-news" name="news" value="css-news">
+                <label for="css-news">CSS News</label><br>                
 
 
-                <input type="checkbox" id="javascript-news" name="news" value="javascript-news">Javascript News
+                <input type="checkbox" id="javascript-news" name="news" value="javascript-news">
+                <label for="javascript-news">Javascript News</label><br>
                 
-                <label for="format">Newsletter format
-                <input type="radio" id="html-format" name="format">HTML
-                <input type="radio" id="plain-text-format" name="format">Plain text
+                <p>Newsletter format</p>
+                <input type="radio" id="html-format" name="format">
+                <label for="html-format">HTML</label><br>
 
-                <br>
-                <label for="textbox">Other topics you'd like to hear about</label>
-                <input type="textarea" id="textbox" name="user_message" rows="10" cols="50">
+                <input type="radio" id="plain-text-format" name="format">
+                <label for="text-format">Plain text</label><br><br>
+
+                <label for="textbox">Other topics you'd like to hear about</label><br>
+                <textarea id="textbox" name="user_message"></textarea>
 
             </fieldset>
             <button type="submit" id="submit-button">Sign Up</button>

@@ -55,23 +55,29 @@ fieldset {
 }
 
 legend {
-    font-weight: 700;
+    font-weight: 900;
     margin: 1rem 0;
     font-size: 1.3rem;
 }
 
-label {
+#contact-fieldset label {
     display: block;
     clear: both;
     margin: 1.5rem 0 .5rem;
 }
 
-input, select {
+#newsletter-fieldset input {
+    margin: 0.75rem 0.5rem .75rem 0.25rem;
+}
+
+input:not([type=checkbox]):not([type=radio]),
+select { 
     width: 100%;
     background-color: whitesmoke;
     border: none;
     height: 2.75rem;
     font-size: 1rem;
+    color: slategrey;
 }
 
 input {
@@ -81,7 +87,7 @@ input {
 p, label {
     color: slategrey;
 }
- 
+
 input[type='text']::placeholder,
 input[type='email']::placeholder {   
     text-align: right;
@@ -89,6 +95,16 @@ input[type='email']::placeholder {
     font-style: italic;
     font-weight: .5rem;
     font-size: .75rem;
+    font-color: lightgrey;
+}
+
+textarea {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 20vh;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1rem;
 }
 
 #submit-button {
@@ -110,5 +126,5 @@ footer {
 }
 
 :focus {
-    border-color: #348AA7;
+    outline-color: #547AA5;
 }
