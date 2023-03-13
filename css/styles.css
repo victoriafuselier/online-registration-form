@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+}
+
+header {
+    background-color: #1C3041;
+    color: ghostwhite;
+    text-align: center;
+    width: 100%;
+}
+
+h1 {
+    margin: 0;
+    padding: 2rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+#headline h2, legend {
+    color: #1C3041;
+}
+
+#headline h2 {
+    font-size: 1.3rem;
+}
+
+#headline {
+    text-align: center;
+    margin: 0 1rem;
+    padding: 1.5rem 0;
+    border-bottom: 5px solid #1C3041;
+}
+
+form {
+    border-top: 2px solid #1C3041;
+    margin: 5px 1rem 0;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 2rem 0;
+}
+
+#contact-fieldset {
+    border-bottom: 2px solid #1C3041;
+    padding-bottom: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+legend {
+    font-weight: 700;
+    margin: 1rem 0;
+    font-size: 1.3rem;
+}
+
+label {
+    display: block;
+    clear: both;
+    margin: 1.5rem 0 .5rem;
+}
+
+input, select {
+    width: 100%;
+    background-color: whitesmoke;
+    border: none;
+    height: 2.75rem;
+    font-size: 1rem;
+}
+
+input {
+    padding: 5px;
+}
+
+p, label {
+    color: slategrey;
+}
+ 
+input[type='text']::placeholder,
+input[type='email']::placeholder {   
+    text-align: right;
+    margin-right: 25px;
+    font-style: italic;
+    font-weight: .5rem;
+    font-size: .75rem;
+}
+
+#submit-button {
+    background-color: #0B6E4F;
+    color: ghostwhite;
+    padding: 1.5rem;
+    border-radius: 6px;
+    border: none;
+    width: 100%;
+    /* margin: 2.5rem 0; */
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+footer {
+    font-style: italic;
+    text-align: center;
+    padding: 2rem 0 5rem;
+}
+
+:focus {
+    border-color: #348AA7;
+}
