@@ -118,7 +118,7 @@ textarea::placeholder {
 }
 
 #zipcode::placeholder {
-    text-align: center;
+    text-align: left;
 }
 
 textarea {
