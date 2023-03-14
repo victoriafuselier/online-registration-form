@@ -24,23 +24,34 @@
             <fieldset id="contact-fieldset">
                 <legend>Contact Information</legend>
                 
-                <label for="name">Full Name</label>
-                <input type="text" id="name" name="user_name" placeholder="Required" required>
+                <div class="flex">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="user_name" placeholder="Required" required>
+                </div>
 
-                <label for="email">Email Address</label>
-                <input type="email" id="email" name="user_email" placeholder="Required" required>
+                <div class="flex">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="user_email" placeholder="Required" required>
+                </div>
 
-                <label for="telephone">Phone Number</label>
-                <input type="tel" id="telephone" name="user_telephone">
+                <div class="flex">
+                    <label for="telephone">Phone Number</label>
+                    <input type="tel" id="telephone" name="user_telephone" placeholder="ex: (555)555-5555">
+                </div>
 
-                <label for="address">Street Address</label>
-                <input type="text" id="address" name="user_address">
+                <div class="flex">
+                    <label for="address">Street Address</label>
+                    <input type="text" id="address" name="user_address" placeholder="Include unit or apt # if applicable">
+                </div>
 
-                <label for="city">City</label>
-                <input type="text" id="city" name="user_city">
+                <div class="flex">
+                    <label for="city">City</label>
+                    <input type="text" id="city" name="user_city" placeholder="City/Town">
+                </div>
 
-                <label for="state">State</label>
-                <select name="state" id="state">
+                <div class="flex">
+                    <label for="state">State</label>
+                    <select name="state" id="state">
                     <option value="" selected="selected">Choose State</option>
                     <option value="AL">Alabama</option>
                     <option value="AK">Alaska</option>
@@ -93,10 +104,13 @@
                     <option value="WV">West Virginia</option>
                     <option value="WI">Wisconsin</option>
                     <option value="WY">Wyoming</option>
-                  </select>
+                    </select>
+                </div>
 
-                <label for="zipcode">Zip Code</label>
-                <input type="text" id="zipcode" name="user_zipcode">
+                <div class="flex">
+                    <label for="zipcode">Zip Code</label>
+                    <input type="text" id="zipcode" name="user_zipcode" placeholder="5-digit zipcode">
+                </div>
             </fieldset>
             <fieldset id="newsletter-fieldset">
                 <legend>Newsletter</legend>
