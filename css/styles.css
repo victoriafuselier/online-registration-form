@@ -7,6 +7,7 @@ body {
     padding: 0;
     font-family: 'Merriweather', serif;
     color: #1C3041;
+    background-color: aliceblue;
 }
 
 main {
@@ -61,11 +62,11 @@ fieldset {
 select,
 textarea {
     padding: 5px 15px;
-    color: grey;
+    color: #1C3041;
     width: 100%;
     margin: 0.5rem 0;
     font-size: .9rem;
-    background-color: whitesmoke;
+    background-color: white;
     border-radius: 5px;
     border: none;
 }
@@ -95,11 +96,6 @@ legend {
     margin: 0.75rem 0.5rem .75rem 0.25rem;
 }
 
-p, label, select {
-    color: slategrey;
-    font-size: .9rem;
-}
-
 select {
     padding: 5px 15px;
 }
@@ -107,13 +103,13 @@ select {
 ::placeholder {   
     text-align: right;
     font-style: italic;
-    font-size: .75rem;
-    color: grey;
+    font-size: .9rem;
+    color: #1C3041;
 }
 
 textarea::placeholder {
     font-style: italic;
-    color: grey;
+    color: #1C3041;
     text-align: left;
 }
 
@@ -134,7 +130,6 @@ textarea {
     border-radius: 6px;
     border: none;
     width: 100%;
-    /* margin: 2.5rem 0; */
     font-weight: 700;
     font-size: 1.25rem;
 }
@@ -149,15 +144,14 @@ input,
 select,
 textarea,
 button {
-    transition: all 1s;
+    transition: all .5s;
 }
 
 #contact-fieldset input:focus,
 #newsletter-fieldset input:focus,
 select:focus,
 textarea:focus {
-    outline-color: #1C3041;
-    background-color: #817F75;
+    background-color: #1C3041;
     color: ghostwhite;
 }
 
@@ -191,6 +185,6 @@ button:hover {
     #contact-fieldset #zipcode {
         width: 23%;
         margin-right: auto;
-        margin-left: 6.8rem;
+        margin-left: 6.4rem;
     }
 }
