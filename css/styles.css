@@ -104,17 +104,21 @@ select {
     text-align: right;
     font-style: italic;
     font-size: .9rem;
-    color: #1C3041;
+    color: slategrey;
 }
 
 textarea::placeholder {
     font-style: italic;
-    color: #1C3041;
+    color: slategrey;
     text-align: left;
 }
 
 #zipcode::placeholder {
     text-align: left;
+}
+
+select {
+    color: slategrey;
 }
 
 textarea {
