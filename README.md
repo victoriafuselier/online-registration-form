@@ -1,7 +1,7 @@
 # online-registration-form
  Treehouse Techdegree Project 3: Online Registration Form
 
- The purpose of this project was to train me in HTML, CSS, and JavaScript, and show mastery of building blocks of the web by building a responsive, mobile-friendly registration form. Project starter files consisted of mockup images for mobile and desktop screen sizes. I was tasked with building a mobile and desktop version of the form using media queries and a "mobile-first" approach.
+The purpose of this project was to practice HTML and CSS and show mastery of building blocks of the web by building a responsive, mobile-friendly registration form. Project starter files consisted of mockup images for mobile and desktop screen sizes. I was tasked with building a mobile and desktop version of the form using media queries and a "mobile-first" approach.
 
 The basic requirements of this project included: building the HTML and CSS for this project myself using mobile-first design; creating a form to practice with the form field types in the lesson--text, email, and telephone input, select menu, checkboxes, radio buttons, textarea, and submit button; displaying proper knowledge of form element attributes such as id, type, name, placeholder, etc; displaying mastery of labels for form elements; using media queries for wider screen sizes; practicing with Google Fonts; adding focus states to the form; practicing spotting errors with code validators prior to submitting project.
 
